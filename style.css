@@ -1,6 +1,7 @@
 /* --- HEADER --- */
 body {
   font-family: "Raleway", sans-serif;
+  margin: 0;
 }
 
 .wrapper {
@@ -89,7 +90,7 @@ header nav div h2 {
   align-items: center;
   border: 2px solid #f2f2f2;
   border-radius: 30px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .icon-bill {
   width: 50px;
@@ -105,7 +106,7 @@ header nav div h2 {
 }
 .block-afternav-filter p {
   font-weight: 600;
-  margin-right: 30px;
+  margin-right: 15px;
 }
 
 .block-filter-description {
@@ -137,6 +138,120 @@ header nav div h2 {
 }
 
 .block-afternav-info-description {
-    font-size: 14px;
-    margin-left: 10px;
-/* --- MID PART --- */
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+/* ------------------ MID PART ------------------ */
+.block-mid {
+  width: 100%;
+  height: 1400px;
+  margin: 40px 0px 40px 0px;
+}
+.block-mid-part1 {
+  width: 100%;
+  height: calc(55% - 50px);
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.block-mid-part2 {
+  width: 100%;
+  background-color: green;
+  height: 45%;
+}
+
+.block-mid-houses {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 68%;
+  border-radius: 15px;
+  background-color: #f2f2f2;
+}
+
+.block-mid-houses-first-container {
+  margin: 30px 60px 30px 60px;
+}
+.block-mid-houses-first-container h2 {
+  margin-bottom: 50px;
+}
+
+.block-mid-houses-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.block-mid-houses-house {
+  background-color: white;
+  width: 300px;
+  height: 220px;
+  border-radius: 15px;
+  box-shadow: 0 0 5px #ccc;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.block-mid-houses-house-popular {
+  background-color: white;
+  width: 100%;
+  height: 170px;
+  border-radius: 15px;
+  box-shadow: 0 0 5px #ccc;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.block-mid-popular {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 28%;
+  border-radius: 15px;
+  background-color: #f2f2f2;
+}
+
+.block-mid-popular-container {
+  margin: 40px;
+}
+
+.block-mid-popular-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* ------------------ FOOTER ------------------ */
+
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 150px;
+  background-color: #f2f2f2;
+}
+.footer h2 {
+  font-size: 12px;
+}
+
+.footer p {
+  font-size: 10px;
+  margin-bottom: 2px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: stretch;
+  margin: 20px 40px 20px 40px;
+}
+
+.centerleft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 160px;
+}
