@@ -7,6 +7,10 @@ body {
 .wrapper {
   margin: 0px 40px 0px 40px;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 header nav {
   display: flex;
   justify-content: space-between;
@@ -117,6 +121,10 @@ header nav div h2 {
   border: 2px solid #f2f2f2;
   border-radius: 30px;
   margin-left: 10px;
+}
+.block-filter p:hover /* Apparence au survol des liens */ {
+  text-decoration: underline;
+  color: green;
 }
 .icon-bill {
   width: 50px;
@@ -335,7 +343,7 @@ header nav div h2 {
   display: flex;
   flex-direction: column;
   background-color: white;
-  width: calc(50% - 30px);
+  /* width: calc(50% - 30px); */
   height: calc(100% - 60px);
   border-radius: 20px;
   box-shadow: 0 0 5px #ccc;
@@ -457,4 +465,83 @@ header nav div h2 {
   flex-direction: column;
   align-items: flex-start;
   margin-right: 160px;
+}
+
+/* RESPONSIVE */
+
+@media all and (min-width: 920px) and (max-width: 1700px) {
+  .block-mid-houses {
+    width: 65%;
+  }
+  .block-mid-popular {
+    width: 32%;
+  }
+  .block-mid-houses-first-container {
+    margin: 20px 60px 30px 60px;
+  }
+  .block-mid-houses-first-container h2 {
+    margin-bottom: 0px;
+  }
+  .block-mid-houses-house {
+    width: 30%;
+    height: 160px;
+  }
+  .block-mid-houses-house p {
+    font-size: 11px;
+  }
+
+  .block-mid-houses-house-upper-title {
+    font-size: 14px;
+  }
+
+  .margin10 {
+    margin: 3px 10px 4px 10px;
+  }
+
+  .block-activites h3 {
+    font-size: 14px;
+  }
+  .block-mid-houses-house-popular-img {
+    width: 90%;
+  }
+  .block-mid-houses-house-popular p {
+    font-size: 10px;
+  }
+  .block-mid-houses-house-popular H3 {
+    font-size: 14px;
+  }
+  .block-mid-popular-container {
+    margin: 21px;
+  }
+  .block-mid-houses-house-popular-text {
+    margin-left: 0px;
+  }
+  .block-mid-houses-container {
+    justify-content: center;
+  }
+  .block-mid-houses-house {
+    margin: 10px;
+  }
+}
+
+@media all and (min-width: 200px) and (max-width: 960px) {
+  .nav-title {
+    flex-wrap: wrap;
+  }
+  .block-afternav-filter {
+    flex-wrap: wrap;
+  }
+  .footer {
+    height: 300px;
+  }
+  .footer-content {
+    display: flex;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 20px 30px 20px 30px;
+  }
+  .centerleft {
+    margin-right: 0px;
+  }
 }
