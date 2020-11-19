@@ -558,9 +558,157 @@ header nav div h2 {
     margin: 0px 30px 0px 30px;
   }
 }
+@media (min-width: 320px) and (max-width: 413px) {
+  /* Iphone 8 */
+  .displaysearch {
+    display: none;
+  }
+  .wrapper {
+    margin: 0px;
+  }
 
-@media (min-width: 320px) and (max-width: 767px) {
-  /* Iphone */
+  .displaysearchlogo {
+    display: inline;
+  }
+  .block-mid-houses-house {
+    width: calc(100% - 20px);
+    height: 210px;
+  }
+
+  .block-afternav-filter {
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  .block-mid-part2 {
+    display: flex;
+    justify-content: center;
+  }
+  .titleactivity {
+    margin-left: 20px;
+  }
+  .block-mid-activities-activity-big {
+    width: calc(100% - 40px);
+  }
+  .block-mid-activities-activity-twice {
+    width: calc(100% - 40px);
+    margin: 0px;
+  }
+  .block-afternav-knows {
+    margin: 20px;
+  }
+  .block-filter {
+    margin: 10px;
+  }
+  .block-mid-part1 {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .block-mid-houses {
+    width: 100%;
+    border-radius: 0px;
+    background-color: white;
+  }
+  .block-mid-popular {
+    margin-top: 50px;
+    width: 100%;
+    border-radius: 0px;
+  }
+  .block-mid-houses-first-container {
+    margin: 0px 20px 30px 20px;
+  }
+  .block-mid-houses-first-container h2 {
+    margin-bottom: 20px;
+  }
+  .block-mid {
+    height: 100%;
+  }
+  .footer {
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 70vh;
+  }
+  .footer p {
+    font-size: 14px;
+  }
+  .footer h2 {
+    font-size: 17px;
+  }
+  .footer-content {
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px 10px 30px 10px;
+    flex-direction: column;
+  }
+
+  .centerleft {
+    margin: 0px 20px 10px 20px;
+  }
+  .block-activites h3 {
+    font-size: 14px;
+  }
+  .block-activites {
+    flex-direction: column;
+    margin-left: 20px;
+    width: auto;
+  }
+  .block-activites-left {
+    width: 100%;
+    flex-direction: column;
+    margin-right: 0px;
+  }
+  .block-activites-right {
+    width: 100%;
+    margin-left: 0px;
+    flex-direction: column;
+  }
+  .block-activites-secondpart {
+    height: auto;
+    width: 100%;
+    margin: 0px;
+  }
+  header nav {
+    flex-direction: column;
+  }
+  .m40t {
+    margin-bottom: 20px;
+  }
+  .nav-title {
+    justify-content: space-around;
+  }
+  .m40l {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .hebergementsborder {
+    border-bottom: 3px solid #0065fc;
+    border-top: 0px solid #0065fc;
+    height: 100%;
+    margin-top: 5px;
+  }
+  .block-afternav {
+    margin: 20px 20px 20px 20px;
+  }
+  .block-afternav-pointer {
+    width: 300px;
+  }
+  .input-search {
+    width: 180px;
+  }
+  .search-button {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .block-mid-activities-activity-medium {
+    width: calc(100% - 40px);
+    margin-bottom: 30px;
+  }
+  .img-activity-big-pic {
+    height: 200px;
+  }
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+  /* Iphone 8+ */
   .displaysearch {
     display: none;
   }
