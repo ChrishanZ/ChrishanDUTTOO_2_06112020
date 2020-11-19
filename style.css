@@ -442,7 +442,7 @@ header nav div h2 {
 
 .footer {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
   height: 250px;
@@ -460,17 +460,39 @@ header nav div h2 {
 
 .footer-content {
   display: flex;
-  justify-content: stretch;
-  margin: 20px 40px 20px 40px;
+  justify-content: flex-start;
+  margin: 30px 10px 30px 10px;
+  flex-direction: row;
 }
 
 .centerleft {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 0px 100px 0px 100px;
+  margin: 0px 250px 10px 20px;
 }
 
+/* .footer {
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 65vh;
+}
+.footer p {
+  font-size: 14px;
+}
+.footer h2 {
+  font-size: 17px;
+}
+.footer-content {
+  display: flex;
+  justify-content: flex-start;
+  margin: 30px 10px 30px 10px;
+  flex-direction: column;
+}
+
+.centerleft {
+  margin: 0px 20px 10px 20px;
+} */
 /* RESPONSIVE */
 
 /* Ipad */
@@ -500,9 +522,7 @@ header nav div h2 {
   .block-mid {
     height: 100%;
   }
-  .footer {
-    height: 30vh;
-  }
+
   .centerleft {
     margin-right: 80px;
   }
@@ -521,6 +541,21 @@ header nav div h2 {
   }
   .block-activites-secondpart {
     height: auto;
+  }
+  .footer {
+    height: 32vh;
+  }
+
+  .footer h2 {
+    font-size: 18px;
+  }
+
+  .footer p {
+    font-size: 12px;
+    margin-bottom: 2px;
+  }
+  .centerleft {
+    margin: 0px 30px 0px 30px;
   }
 }
 
@@ -589,7 +624,9 @@ header nav div h2 {
     height: 100%;
   }
   .footer {
-    height: 450px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 65vh;
   }
   .footer p {
     font-size: 14px;
@@ -598,10 +635,14 @@ header nav div h2 {
     font-size: 17px;
   }
   .footer-content {
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px 10px 30px 10px;
     flex-direction: column;
   }
+
   .centerleft {
-    margin-right: 80px;
+    margin: 0px 20px 10px 20px;
   }
   .block-activites h3 {
     font-size: 14px;
